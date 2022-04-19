@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	padding: 10px ;
+	background:url(n.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	 font-family:'poppins', sans-serif ;
+	
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+  
+.form{
+	width: 400px;
+	height: 500px;
+	background-color: rgba(227, 240, 240, 0.3);
+	box-shadow: 0 5px 30px black;
+
+}
+
+.btn button{
+	padding:2px ;
+	margin: 30px 0px 40px 30px;
+	border-style: none;
+	background-color:transparent;
+	color: white;
+	font-size: 18px;
+	font-weight: 550;
+
+}
+
+.formGroup{
+   display: flex;
+   justify-content: center;
+}
+.formGroup input{
+	border: none;
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: transparent;
+	border-bottom: 2px solid rgb(206, 223, 206);
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+} 
+
+::placeholder{
+	color: white:
+}
+
+input:focus{
+	outline:none;
+	border-bottom: 2px solid rgb(46, 153, 46);
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.checkbox{
+	display: flex;
+	justify-content: center;
+	margin: 15px;
+}
+#chechbox{
+	height: 15px;
+	width: 15px;
+	margin-right: 10px;
+}
+
+.text{
+	color: whitesmoke;
+	font-size: 13px;
+}
+
+.btn2{
+	padding: 10px;
+	outline: none;
+	width: 150px;
+	border-radius: 20px;
+	border-style: none;
+	background-color:rgb(46, 153, 46) ;
+	color: whitesmoke;
+	font-size: 600;
+
+}
+.btn2:hover{
+	background-color:rgb(10, 75, 10) ;
+}
+.btn button:hover{
+	border-bottom: 2px solid rgb(46, 153, 46);
+
+}
+
+.logIn{
+display: none;
+}
+
+
+.logIn{
+	margin-top: 40px;
+}
+.logIn .checkbox{
+	margin-top: 40px ;
+}
